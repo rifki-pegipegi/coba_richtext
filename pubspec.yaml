@@ -9,17 +9,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  freezed: ^2.3.5
   http: ^1.0.0
-  json_serializable: ^6.7.0
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.1
   riverpod_generator: ^2.2.3
   riverpod_annotation: ^2.1.1
+  flutter_riverpod: ^2.3.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  freezed: ^2.3.5
+  build_runner: ^2.4.5
+  json_serializable: ^6.7.0
   flutter_lints: ^2.0.0
-  flutter_riverpod: ^2.3.6
 
 
 flutter:
